@@ -55,11 +55,9 @@ class Square:
         self.__position = value
 
     def area(self):
-        """The Function that returns the area of the square"""
         return (self.__size ** 2)
 
     def my_print(self):
-        """A Function that prints the square in position."""
         if self.__size == 0:
             print()
         for w in range(self.__position[1]):
